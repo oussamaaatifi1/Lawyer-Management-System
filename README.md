@@ -108,3 +108,16 @@ src/
     │   ├── application.yml # Configuration file
     │   ├── data.sql        # Test data
     │   └── schema.sql      # Database schema
+```
+### Frontend
+The frontend is an Angular application:
+```plaintext
+src/
+└── app/
+    ├── components/         # UI components
+    ├── services/           # API integration
+    ├── models/             # Data models
+    ├── pages/              # Views
+    └── app.module.ts       # Main module
+
+
